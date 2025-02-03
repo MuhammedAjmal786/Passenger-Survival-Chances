@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passenger Survival Prediction</title>
+
+    <style>
+        body {background-color:rgb(36, 38, 41);}
+        label {color: white;}
+    </style>
+</head>
+<body>
+    <h1 style="color: aliceblue;text-align:center">Passenger Survival Prediction</h1>
+
+    <form action="{{ url_for('predict') }}" method="post">
+    <div style='text-align:center'>
+
+        <label>Age:</label>
+        <input type="number" name="Age" placeholder="Enter Age" required>
+        <br><br>
+
+        <label>Gender:</label>
+        <select name="Gender" required>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+        <br><br>
+
+        <label>Class:</label>
+        <select name="Class" required>
+            <option value="Economy">Economy</option>
+            <option value="First">First</option>
+            <option value="Business">Business</option>
+        </select>
+        <br><br>
+
+        <label>Seat Type:</label>
+        <select name="Seat_Type" required>
+            <option value="Window">Window</option>
+            <option value="Middle">Middle</option>
+            <option value="Aisle">Aisle</option>
+        </select>
+        <br><br>
+
+        <label>Fare Paid:</label>
+        <input type="number" name="Fare_Paid" placeholder="Enter Fare Paid" required>
+        <br><br>
+
+        <button type="submit">Predict</button>
+    </div>
+    </form>
+
+    <h2 style="color: aliceblue;text-align:center">{{ prediction_text }}</h2>
+</body>
+</html>
