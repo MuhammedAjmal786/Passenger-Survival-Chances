@@ -43,7 +43,7 @@ static/;
    ```
 
 3. Run the applications:
-   - **EDA**: Run Jupyter notebooks inside the `eda` folder.
+   - **EDA**: Run Jupyter notebooks inside the `passenger` folder.
    - **Streamlit App**:
      ```bash
      cd strm
