@@ -14,7 +14,6 @@ This repository contains multiple implementations and analyses related to Passen
 
 ## 📂 Project Structure
 ```
-📦 Diabetes-Prediction
 ├── 📂 passenger                # Exploratory Data Analysis (EDA) scripts
 ├── 📂 strm      # Streamlit-based Diabetes Prediction app
 ├── 📂 flsk         # Flask-based Diabetes Prediction app
