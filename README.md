@@ -17,6 +17,8 @@ This repository contains multiple implementations and analyses related to Passen
 ├── 📂 passenger                # Exploratory Data Analysis (EDA) scripts
 ├── 📂 strm      # Streamlit-based Diabetes Prediction app
 ├── 📂 flsk         # Flask-based Diabetes Prediction app
+├──  model         # Saved model using pickle
+├──  passenger_survival_dataset - passenger_survival_dataset         # Dataset
 templates/;
 ├── 📂 hml         # html
 static/;
