@@ -2,9 +2,9 @@
 
 This repository contains multiple implementations and analyses related to Passenger Surviva prediction, including:
 
-- **Exploratory Data Analysis (EDA)** of a Diabetes dataset.
-- **Streamlit Web Application** for Diabetes Prediction.
-- **Flask Web Application** for Diabetes Prediction.
+- **Exploratory Data Analysis (EDA)** of a Passenger dataset.
+- **Streamlit Web Application** for Passenger Prediction.
+- **Flask Web Application** for Passenger Prediction.
 
 ## 📌 Features
 - Perform EDA to understand the dataset and key patterns.
