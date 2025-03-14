@@ -3,8 +3,8 @@
 This repository contains multiple implementations and analyses related to Passenger Surviva prediction, including:
 
 - **Exploratory Data Analysis (EDA)** of a Passenger dataset.
-- **Streamlit Web Application** for Passenger Prediction.
-- **Flask Web Application** for Passenger Prediction.
+- **Streamlit Web Application** for Passenger Survival Prediction.
+- **Flask Web Application** for Passenger Survivsl Prediction.
 
 ## 📌 Features
 - Perform EDA to understand the dataset and key patterns.
@@ -15,8 +15,8 @@ This repository contains multiple implementations and analyses related to Passen
 ## 📂 Project Structure
 ```
 ├── 📂 passenger                # Exploratory Data Analysis (EDA) scripts
-├── 📂 strm      # Streamlit-based Diabetes Prediction app
-├── 📂 flsk         # Flask-based Diabetes Prediction app
+├── 📂 strm      # Streamlit-based Pssenger Survival Prediction app
+├── 📂 flsk         # Flask-based Passenger Survival Prediction app
 ├──  model         # Saved model using pickle
 ├──  passenger_survival_dataset - passenger_survival_dataset         # Dataset
 templates/;
